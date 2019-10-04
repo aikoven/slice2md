@@ -21,6 +21,7 @@
   "license": "GPL-2.0",
   "dependencies": {
     "assert-never": "^1.2.0",
+    "commander": "^3.0.2",
     "dedent": "^0.7.0",
     "glob": "^7.1.4",
     "indent-string": "^4.0.0",
