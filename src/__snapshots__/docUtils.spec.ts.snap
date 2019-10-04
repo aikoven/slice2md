@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parseDoc 1`] = `
+Array [
+  Object {
+    "type": "text",
+    "value": "Text before inline tag",
+  },
+  Object {
+    "tag": "first",
+    "type": "inline-tag",
+    "value": "inline content",
+  },
+  Object {
+    "type": "text",
+    "value": "more text",
+  },
+  Object {
+    "tag": "second",
+    "type": "inline-tag",
+    "value": "lol",
+  },
+  Object {
+    "type": "text",
+    "value": "another line",
+  },
+  Object {
+    "tag": "tag1",
+    "type": "tag",
+    "value": "tag with single line",
+  },
+  Object {
+    "tag": "tag2",
+    "type": "tag",
+    "value": "tag with
+multiple
+lines",
+  },
+  Object {
+    "tag": "tag3",
+    "type": "tag",
+    "value": undefined,
+  },
+]
+`;
